@@ -1,11 +1,4 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +28,83 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+
+.footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: skyblue;
+}
+
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+.register{
+  margin-left: 30%;
+}
+.frm-btn{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  cursor: pointer;
+  border: 1px solid;
+}
+.nav-right{
+  text-align: right;
+}
+
+.logo{
+  float: left;
+  margin-left: 20px;
+}
+
+.err-msg{
+  color: red;
+  margin-top: -20px;
+  margin-left: 20px;
+  display: block;
+}
+
+
+/* table */
+#resp-table {
+  width: 100%;
+  display: table;
+}
+#resp-table-body{
+  display: table-row-group;
+}
+.resp-table-row{
+  display: table-row;
+}
+.table-body-cell{
+  display: table-cell;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
 }
